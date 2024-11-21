@@ -1,0 +1,111 @@
+/* Estilo Global */
+body {
+    font-family: 'Cinzel', serif;
+    color: #eaeaea;
+    background: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Cabeçalho */
+header {
+    background: #0d0d0d;
+    color: #eaeaea;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #444;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #b30000; /* Toque de vermelho gótico */
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #262626;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+main h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #b30000;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+main p {
+    margin: 15px 0;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+main ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+    font-size: 18px;
+}
+
+main ul li::before {
+    content: '❦';
+    position: absolute;
+    left: 0;
+    color: #b30000;
+    font-size: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #0d0d0d;
+    color: #eaeaea;
+    padding: 10px;
+    border-top: 2px solid #444;
+    font-size: 14px;
+}
+
+/* Links Especiais */
+a {
+    color: #b30000;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #eaeaea;
+}
+
+/* Fontes Customizadas */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cinzel+Decorative:wght@400;700&display=swap');
